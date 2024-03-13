@@ -1,0 +1,66 @@
+body {
+  background-color: #13122b;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  width: 500px;
+  height: 300px;
+  background-color: aliceblue;
+  margin: auto;
+
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #13122b;
+  padding-top: 10px;
+}
+
+#form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-right: 130px;
+}
+
+#form input {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border: 3px solid #13122b;
+  text-align: center;
+}
+
+#form button {
+  height: 38px;
+  width: 38px;
+  border-radius: 10px;
+  background-color: #13122b;
+  color: aliceblue;
+  text-align: center;
+  font-size: larger;
+}
+
+section .list ul li {
+  padding-top: 5px;
+  margin-left: 90px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+section .list ul li button {
+  margin-left: 70px;
+}
+
+section .list ul li span {
+  width: 100px;
+}
+
+input[type="checkbox"]:checked + span {
+  text-decoration: line-through;
+}
